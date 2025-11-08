@@ -9,7 +9,7 @@ class Config(BaseSettings):
     port: int
 
     model_config = {
-        "env_file": ".env",
+        "env_file": "conf/.env",
         "env_file_encoding": "utf-8"
     }
 
